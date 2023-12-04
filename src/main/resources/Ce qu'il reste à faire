@@ -1,0 +1,22 @@
+Rnf :
+    -
+    - Changer le nom de la facture Rnf au téléchargement,
+    - Comprendre la logique de concatenation du titre référence,
+    -
+    - Rajouter l'équivalent du idPce dans updateFacture et showAllFacture, (Le rendre aléatoire pour le titreRéférence)
+    -
+
+Hop :
+    - (EXER) et de l’identifiant de titre (lui-même agrégation de IDPIECE et IDLIGNE )
+    -
+    -
+
+Rol :
+    - (EXER), du code recette (CODPROCLOC) et du numéro de dette (NUMDETTE).
+    -
+
+Rec :
+    - (EXER) et de l’identifiant de titre (lui-même agrégation de IDPIECE et IDLIGNE )
+    -
+
+Launch4j pour créer une exécutable cliquable

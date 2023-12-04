@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<n:PES_Retour xmlns:n="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_RECETTE_Autonome.xsd">
+    <Enveloppe>
+        <Parametres>
+            <Version V="2"></Version>
+            <TypFic V="TIPIREC"></TypFic>
+            <NomFic V="TIPIREC_076029_638_00_2023_167.xml"></NomFic>
+        </Parametres>
+    </Enveloppe>
+    <EnTetePES>
+        <DteStr V="2023-06-19"></DteStr>
+        <IdPost V="076029"></IdPost>
+        <LibellePoste V="MONTVILLE"></LibellePoste>
+        <IdColl V="21760136800012"></IdColl>
+        <CodCol V="638"></CodCol>
+        <CodBud V="00"></CodBud>
+        <LibelleColBud V="BRACHY"></LibelleColBud>
+    </EnTetePES>
+    <PES_TIPI_Recette>
+        <Bordereau>
+            <BlocBordereau>
+                <Exer V="2023"></Exer>
+                <IdBord V="30"></IdBord>
+                <TypBord V="01"></TypBord>
+                <NbrePce V="2"></NbrePce>
+            </BlocBordereau>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="259"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-16"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <Nature V="752"></Nature>
+                            <MtTTC V="481.69"></MtTTC>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="310104426498"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="COINTRE"></Nom>
+                            <Prenom V="CINDY"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="53 ROUTE DE LA MER"></Adr1>
+                            <CP V="76730"></CP>
+                            <Ville V="BRACHY"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="261"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-16"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <Nature V="752"></Nature>
+                            <MtTTC V="407.4"></MtTTC>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="310104768440"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="PIMONT"></Nom>
+                            <Prenom V="MICHEL"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="1 allee des platanes"></Adr1>
+                            <CP V="76730"></CP>
+                            <Ville V="BRACHY"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+        </Bordereau>
+    </PES_TIPI_Recette>
+</n:PES_Retour>

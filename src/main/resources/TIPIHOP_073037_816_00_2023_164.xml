@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<n:PES_Retour xmlns:n="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_RECETTE_Autonome.xsd">
+    <Enveloppe>
+        <Parametres>
+            <Version V="2"></Version>
+            <TypFic V="TIPIHOP"></TypFic>
+            <NomFic V="TIPIHOP_073037_816_00_2023_164.xml"></NomFic>
+        </Parametres>
+    </Enveloppe>
+    <EnTetePES>
+        <DteStr V="2023-06-14"></DteStr>
+        <IdPost V="073037"></IdPost>
+        <LibellePoste V="CHAMBERY ETS HOSPITALIERS"></LibellePoste>
+        <IdColl V="26730006900015"></IdColl>
+        <FinJur V="730780525"></FinJur>
+        <CodCol V="816"></CodCol>
+        <CodBud V="00"></CodBud>
+        <LibelleColBud V="CHG BOURG ST MAURICE"></LibelleColBud>
+    </EnTetePES>
+    <PES_TIPI_Recette>
+        <Bordereau>
+            <BlocBordereau>
+                <Exer V="2023"></Exer>
+                <IdBord V="1000115"></IdBord>
+                <TypBord V="01"></TypBord>
+                <NbrePce V="20"></NbrePce>
+            </BlocBordereau>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662897"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-01"></DebFact>
+                    <FinFact V="2023-03-01"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="SIPHON HENDRICKX SCOTT - Consultation du 01/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1986-03-28"></DteMalade>
+                            <RefTiers V="170040922304"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="HENDRICKX"></Nom>
+                            <Prenom V="STEPHANIE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="17 RUE MARGUERITE YOURCENAR"></Adr1>
+                            <CP V="95820"></CP>
+                            <Ville V="BRUYERES SUR OISE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1986-03-28"></DteMalade>
+                            <RefTiers V="223042219"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="HENDRICKX"></Nom>
+                            <Prenom V="STEPHANIE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662898"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-20"></DebFact>
+                    <FinFact V="2023-03-20"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="BERTHOMIERE LUCIE - Consultation du 20/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1978-03-03"></DteMalade>
+                            <RefTiers V="1727746448"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="BERTHOMIERE"></Nom>
+                            <Prenom V="MARIE PIERRETTE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="189 RUE DU VERSOYEN"></Adr1>
+                            <Adr2 V="RESIDENCE L ARBONNE APPT 5"></Adr2>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1978-03-03"></DteMalade>
+                            <RefTiers V="223055312"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="BERTHOMIERE"></Nom>
+                            <Prenom V="MARIE PIERRETTE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662899"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-02"></DebFact>
+                    <FinFact V="2023-03-02"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="FEBVRE ANGELIQUE - Consultation du 02/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1983-09-05"></DteMalade>
+                            <RefTiers V="170040662688"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="FEBVRE"></Nom>
+                            <Prenom V="AMOR MIA"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="440 ROUTE DE VULMIX"></Adr1>
+                            <Adr2 V="LA RESIDENCE"></Adr2>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1983-09-05"></DteMalade>
+                            <RefTiers V="223043335"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="FEBVRE"></Nom>
+                            <Prenom V="AMOR MIA"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662900"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-29"></DebFact>
+                    <FinFact V="2023-03-29"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="MAI MICKAEL - Consultation du 29/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1977-12-09"></DteMalade>
+                            <RefTiers V="170040922303"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="MAI"></Nom>
+                            <Prenom V="THI PHUONG"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="102 ROUTE DE LA BOURGEAT"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG SAINT MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1977-12-09"></DteMalade>
+                            <RefTiers V="223060436"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="MAI"></Nom>
+                            <Prenom V="THI PHUONG"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662901"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-01"></DebFact>
+                    <FinFact V="2023-03-01"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="VISDELOUP ELOANE - Consultation du 01/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-09-06"></DteMalade>
+                            <RefTiers V="170040922302"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="VISDELOUP"></Nom>
+                            <Prenom V="GAELLE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="2 RUE GABRIEL DAUPHIN"></Adr1>
+                            <CP V="91120"></CP>
+                            <Ville V="PALAISEAU"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-09-06"></DteMalade>
+                            <RefTiers V="223042060"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="VISDELOUP"></Nom>
+                            <Prenom V="GAELLE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662902"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-04"></DebFact>
+                    <FinFact V="2023-04-04"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="AUBIN EDOUARD - Consultation du 04/04/2023"></ObjLignePce>
+                            <Nature V="731222"></Nature>
+                            <MtTTC V="141.12"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1974-03-05"></DteMalade>
+                            <RefTiers V="170040868481"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="AUBIN"></Nom>
+                            <Prenom V="EDOUARD"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="22 WARRINGTON CRESCENT"></Adr1>
+                            <CP V="99999"></CP>
+                            <Ville V="W9 1EL LONDRES"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1974-03-05"></DteMalade>
+                            <RefTiers V="223063999"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="AUBIN"></Nom>
+                            <Prenom V="EDOUARD"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662903"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-20"></DebFact>
+                    <FinFact V="2023-04-20"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="BROCHE YVES - Consultation du 20/04/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="8.49"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1951-01-13"></DteMalade>
+                            <RefTiers V="1715274615"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="BROCHE"></Nom>
+                            <Prenom V="YVES"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="RESIDENCE DES ALPES"></Adr1>
+                            <Adr2 V="160 GRANDE RUE"></Adr2>
+                            <CP V="73210"></CP>
+                            <Ville V="AIME LA PLAGNE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1951-01-13"></DteMalade>
+                            <RefTiers V="223071374"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="BROCHE"></Nom>
+                            <Prenom V="YVES"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662904"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-05"></DebFact>
+                    <FinFact V="2023-04-05"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="DABANCOURT HERMELINE - Consultation du 05/04/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1995-06-15"></DteMalade>
+                            <RefTiers V="170038549709"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="DABANCOURT"></Nom>
+                            <Prenom V="HERMELINE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="186 ROUTE DE L EULION"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="LES CHAPELLES"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1995-06-15"></DteMalade>
+                            <RefTiers V="223064517"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="DABANCOURT"></Nom>
+                            <Prenom V="HERMELINE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662905"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-02-14"></DebFact>
+                    <FinFact V="2023-02-14"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="DUNKLEY NEIL - Consultation du 14/02/2023"></ObjLignePce>
+                            <Nature V="7338"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1968-09-13"></DteMalade>
+                            <RefTiers V="170040470124"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DUNKLEY"></Nom>
+                            <Prenom V="NEIL"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="7 NAMROD CLOSE"></Adr1>
+                            <CP V="99999"></CP>
+                            <Ville V="SAINT ELBENS AL4 9XW"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1968-09-13"></DteMalade>
+                            <RefTiers V="223030071"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DUNKLEY"></Nom>
+                            <Prenom V="NEIL"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662906"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-02-18"></DebFact>
+                    <FinFact V="2023-02-18"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="DUNKLEY NEIL - Consultation du 18/02/2023"></ObjLignePce>
+                            <Nature V="7338"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1968-09-13"></DteMalade>
+                            <RefTiers V="170040470124"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DUNKLEY"></Nom>
+                            <Prenom V="NEIL"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="7 NAMROD CLOSE"></Adr1>
+                            <CP V="99999"></CP>
+                            <Ville V="SAINT ELBENS AL4 9XW"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1968-09-13"></DteMalade>
+                            <RefTiers V="223033433"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DUNKLEY"></Nom>
+                            <Prenom V="NEIL"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662907"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-05-23"></DebFact>
+                    <FinFact V="2023-05-23"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="GUILLERY ODILE - Consultation du 23/05/2023"></ObjLignePce>
+                            <Nature V="732412"></Nature>
+                            <MtTTC V="8.08"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1962-03-21"></DteMalade>
+                            <RefTiers V="170040922305"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="GUILLERY"></Nom>
+                            <Prenom V="ODILE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="93 RUE DE LA FRASSE"></Adr1>
+                            <Adr2 V="A 42"></Adr2>
+                            <CP V="73210"></CP>
+                            <Ville V="AIME LA PLAGNE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1962-03-21"></DteMalade>
+                            <RefTiers V="323112107"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="GUILLERY"></Nom>
+                            <Prenom V="ODILE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662908"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-18"></DebFact>
+                    <FinFact V="2023-03-18"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="MASSON FREDERIC - Consultation du 18/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1983-04-28"></DteMalade>
+                            <RefTiers V="170040869141"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="MASSON"></Nom>
+                            <Prenom V="FREDERIC"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="57 CHEMIN DE BELLEFACE"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1983-04-28"></DteMalade>
+                            <RefTiers V="223054182"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="MASSON"></Nom>
+                            <Prenom V="FREDERIC"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662909"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-02-14"></DebFact>
+                    <FinFact V="2023-02-14"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="PAPAVOINE FANNY - Consultation du 14/02/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="8.49"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1991-02-11"></DteMalade>
+                            <RefTiers V="1735754923"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="PAPAVOINE"></Nom>
+                            <Prenom V="FANNY"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="4 ROUTE D ORSENNES"></Adr1>
+                            <CP V="36140"></CP>
+                            <Ville V="LOURDOUEIX ST MICHEL"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1991-02-11"></DteMalade>
+                            <RefTiers V="223030184"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="PAPAVOINE"></Nom>
+                            <Prenom V="FANNY"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662910"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-02-14"></DebFact>
+                    <FinFact V="2023-02-14"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="PAPAVOINE FANNY - Consultation du 14/02/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="8.49"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1991-02-11"></DteMalade>
+                            <RefTiers V="1735754923"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="PAPAVOINE"></Nom>
+                            <Prenom V="FANNY"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="4 ROUTE D ORSENNES"></Adr1>
+                            <CP V="36140"></CP>
+                            <Ville V="LOURDOUEIX ST MICHEL"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1991-02-11"></DteMalade>
+                            <RefTiers V="223030184"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="PAPAVOINE"></Nom>
+                            <Prenom V="FANNY"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662911"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-17"></DebFact>
+                    <FinFact V="2023-04-17"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="REYNAUD FREDERIC - Consultation du 17/04/2023"></ObjLignePce>
+                            <Nature V="732412"></Nature>
+                            <MtTTC V="14.12"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-01-18"></DteMalade>
+                            <RefTiers V="1722260075"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="REYNAUD"></Nom>
+                            <Prenom V="FREDERIC"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="LOTISSEMENT LES CHAUDANNES 2"></Adr1>
+                            <CP V="73210"></CP>
+                            <Ville V="AIME LA PLAGNE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-01-18"></DteMalade>
+                            <RefTiers V="323086991"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="REYNAUD"></Nom>
+                            <Prenom V="FREDERIC"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662912"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-06-03"></DebFact>
+                    <FinFact V="2023-06-03"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="WEIDER AUDREY - Consultation du 03/06/2023"></ObjLignePce>
+                            <Nature V="732412"></Nature>
+                            <MtTTC V="15.73"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1985-05-04"></DteMalade>
+                            <RefTiers V="1722636587"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="WEIDER"></Nom>
+                            <Prenom V="AUDREY"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="6 CHEMIN DE BIANA"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="SEEZ"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1985-05-04"></DteMalade>
+                            <RefTiers V="323120058"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="WEIDER"></Nom>
+                            <Prenom V="AUDREY"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662913"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-05-02"></DebFact>
+                    <FinFact V="2023-05-02"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="COMPAGNON ASYARA YUKI - Consultation du 02/05/2023"></ObjLignePce>
+                            <Nature V="732412"></Nature>
+                            <MtTTC V="7.5"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1984-06-26"></DteMalade>
+                            <RefTiers V="170037749069"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="COMPAGNON"></Nom>
+                            <Prenom V="FLAVIEN"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="110 RUE DU PINON"></Adr1>
+                            <Adr2 V="BATIMENT D APPARTEMENT 261"></Adr2>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1984-06-26"></DteMalade>
+                            <RefTiers V="323098040"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="COMPAGNON"></Nom>
+                            <Prenom V="FLAVIEN"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662914"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-03-02"></DebFact>
+                    <FinFact V="2023-03-02"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="CORREIA AZEVEDO ALANIA - Consultation du 02/03/2023"></ObjLignePce>
+                            <Nature V="732424"></Nature>
+                            <MtTTC V="19.61"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-02-21"></DteMalade>
+                            <RefTiers V="170040740152"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="CORREIA AZEVEDO"></Nom>
+                            <Prenom V="ARTUR JORGE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="1 IMPASSE DU PORCHE"></Adr1>
+                            <Adr2 V="MAISON LES AROLLES"></Adr2>
+                            <CP V="73210"></CP>
+                            <Ville V="BELLENTRE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1980-02-21"></DteMalade>
+                            <RefTiers V="223043867"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="CORREIA AZEVEDO"></Nom>
+                            <Prenom V="ARTUR JORGE"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662963"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-04"></DebFact>
+                    <FinFact V="2023-04-04"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="AUBIN EDOUARD - Consultation du 04/04/2023"></ObjLignePce>
+                            <Nature V="73126"></Nature>
+                            <MtTTC V="93.03"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1974-03-05"></DteMalade>
+                            <RefTiers V="170040868481"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="AUBIN"></Nom>
+                            <Prenom V="EDOUARD"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="22 WARRINGTON CRESCENT"></Adr1>
+                            <CP V="99999"></CP>
+                            <Ville V="W9 1EL LONDRES"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1974-03-05"></DteMalade>
+                            <RefTiers V="223063999"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="AUBIN"></Nom>
+                            <Prenom V="EDOUARD"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662964"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <DebFact V="2023-04-11"></DebFact>
+                    <FinFact V="2023-04-11"></FinFact>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="CASSARDO ANDREA - Consultation du 11/04/2023"></ObjLignePce>
+                            <Nature V="73126"></Nature>
+                            <MtTTC V="93.03"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1993-06-30"></DteMalade>
+                            <RefTiers V="170040922301"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="CASSARDO"></Nom>
+                            <Prenom V="ANDREA"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="8 RUE DU MOULIN"></Adr1>
+                            <CP V="06190"></CP>
+                            <Ville V="ROQUEBRUNE CAP MARTIN"></Ville>
+                        </Adresse>
+                    </Tiers>
+                    <Tiers>
+                        <InfoTiers>
+                            <DteMalade V="1993-06-30"></DteMalade>
+                            <RefTiers V="323083541"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="06"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="CASSARDO"></Nom>
+                            <Prenom V="ANDREA"></Prenom>
+                        </InfoTiers>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+        </Bordereau>
+        <Bordereau>
+            <BlocBordereau>
+                <Exer V="2023"></Exer>
+                <IdBord V="1000116"></IdBord>
+                <TypBord V="01"></TypBord>
+                <NbrePce V="10"></NbrePce>
+            </BlocBordereau>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662974"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="797.82"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1715308983"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="MAULETTI"></Nom>
+                            <Prenom V="MARION"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="ORBASSY"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662975"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="150.3"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="170038259028"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="HAY"></Nom>
+                            <Prenom V="LESLIE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="139 RUE DU NANTET"></Adr1>
+                            <Adr2 V="MAISON DE SANTÉ"></Adr2>
+                            <Adr3 V="BP 60"></Adr3>
+                            <CP V="73702"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662977"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="664.63"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1715277382"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DR GAZAVE"></Nom>
+                            <Prenom V="FRANCOIS"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="LE NOYERAY"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="SEEZ"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662978"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="664.63"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1715277363"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="DR BRUN"></Nom>
+                            <Prenom V="MARIE CHRISTINE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="ROUTE DE LONGEFOY BONNEGARDE"></Adr1>
+                            <CP V="73210"></CP>
+                            <Ville V="MACOT LA PLAGNE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662979"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="625.83"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1721633411"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="CLEMENT"></Nom>
+                            <Prenom V="THOMAS"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="139 RUE DU NANTET"></Adr1>
+                            <Adr2 V="MAISON DE SANTÉ"></Adr2>
+                            <Adr3 V="BP 60"></Adr3>
+                            <CP V="73702"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662980"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="625.83"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="170038369276"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="M"></Civilite>
+                            <Nom V="DALLA ZUANNA"></Nom>
+                            <Prenom V="ANTHONY"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="873 ROUTE DES GONDONS"></Adr1>
+                            <Adr3 V="LE PETIT GONDON"></Adr3>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662981"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="265.86"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1735587332"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="AMELINE"></Nom>
+                            <Prenom V="ELISA"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="LE LOISSEL"></Adr1>
+                            <CP V="73640"></CP>
+                            <Ville V="VILLAROGER"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662982"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="63.68"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1725018534"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="GAIMARD"></Nom>
+                            <Prenom V="KIM"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="CIDEX 434"></Adr1>
+                            <Adr2 V="LE CHARVET"></Adr2>
+                            <Adr3 V="ARCS 1800"></Adr3>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662983"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="199.45"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1715305429"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="RONDEL"></Nom>
+                            <Prenom V="ANNETTE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="RUE DE LA BOURGEAT"></Adr1>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+            <Piece>
+                <BlocPiece>
+                    <IdPce V="2662984"></IdPce>
+                    <TypPce V="01"></TypPce>
+                    <NatPce V="01"></NatPce>
+                    <CatPce V="1"></CatPce>
+                    <EtatPce V="02"></EtatPce>
+                    <DtePcePec V="2023-06-13"></DtePcePec>
+                </BlocPiece>
+                <LigneDePiece>
+                    <BlocLignePiece>
+                        <InfoLignePiece>
+                            <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="LOYER LOCAL MSP JUIN 2023"></ObjLignePce>
+                            <Nature V="7083"></Nature>
+                            <MtTTC V="199.45"></MtTTC>
+                            <CodEtGeo V="75"></CodEtGeo>
+                        </InfoLignePiece>
+                    </BlocLignePiece>
+                    <Tiers>
+                        <InfoTiers>
+                            <RefTiers V="1715305458"></RefTiers>
+                            <CatTiers V="01"></CatTiers>
+                            <TypTiers V="01"></TypTiers>
+                            <Civilite V="MME"></Civilite>
+                            <Nom V="BLANC"></Nom>
+                            <Prenom V="JULIETTE"></Prenom>
+                        </InfoTiers>
+                        <Adresse>
+                            <Adr1 V="LES PLANS"></Adr1>
+                            <Adr3 V="HAUTEVILLE GONDON"></Adr3>
+                            <CP V="73700"></CP>
+                            <Ville V="BOURG ST MAURICE"></Ville>
+                        </Adresse>
+                    </Tiers>
+                </LigneDePiece>
+            </Piece>
+        </Bordereau>
+    </PES_TIPI_Recette>
+</n:PES_Retour>

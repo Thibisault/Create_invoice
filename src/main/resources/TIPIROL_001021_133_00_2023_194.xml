@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<n:PES_Retour xmlns:n="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.minefi.gouv.fr/cp/helios/pes_v2/Rev0/retour /opt/tx5115/users/ediprod/messages/XML/PES_V2/Externe/Schemas_PES/PES_V2/Rev0/PES_V2_TIPI_ROLE_Autonome.xsd">
+    <Enveloppe>
+        <Parametres>
+            <Version V="2"></Version>
+            <TypFic V="TIPIROL"></TypFic>
+            <NomFic V="TIPIROL_001021_133_00_2023_194.xml"></NomFic>
+        </Parametres>
+    </Enveloppe>
+    <EnTetePES>
+        <DteStr V="2023-07-17"></DteStr>
+        <IdPost V="001021"></IdPost>
+        <CodCol V="133"></CodCol>
+        <CodBud V="00"></CodBud>
+    </EnTetePES>
+    <PES_TIPI_Role>
+        <Role>
+            <BlocRole>
+                <Exer V="2023"></Exer>
+                <IdRol V="7"></IdRol>
+                <TypRol V="01"></TypRol>
+                <DteAsp V="2023-07-12"></DteAsp>
+            </BlocRole>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070001"></IdPce>
+                        <NumDette V="23070001"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="BOUALOUCHEN BOUDROT Ryad - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107814635"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="BOUDROT"></Nom>
+                        <Prenom V="MARION"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="206 rue de la Californie"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070002"></IdPce>
+                        <NumDette V="23070002"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="CALMUS CHLOE - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107811014"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="CALMUS"></Nom>
+                        <Prenom V="HUGUES"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="263 RUE DE LA SUISSE"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070003"></IdPce>
+                        <NumDette V="23070003"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="MALARA Siana - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107796631"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="CHANTELOT"></Nom>
+                        <Prenom V="Sylvia"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="249 rue du 12 juillet 1944"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070004"></IdPce>
+                        <NumDette V="23070004"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="CHAVENT Alexandra - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801205"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="CHAVENT"></Nom>
+                        <Prenom V="Rania"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="157 rue chapuis"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070005"></IdPce>
+                        <NumDette V="23070005"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="VERMAY THEO - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="14.25"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107809554"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="CORCELLUT"></Nom>
+                        <Prenom V="Ludivine"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="21 rue du Veyron"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="PONCIN"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070006"></IdPce>
+                        <NumDette V="23070006"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="IOUZALEN Liam - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="14.25"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107788984"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="DOMINGUEZ"></Nom>
+                        <Prenom V="Beatrice"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="152 rue du 12 juillet 1944"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070007"></IdPce>
+                        <NumDette V="23070007"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="DUBREUIL PAUL - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="9.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107816104"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="DUBREUIL"></Nom>
+                        <Prenom V="Pierre"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="975 route de Geneve"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="PONCIN"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070008"></IdPce>
+                        <NumDette V="23070008"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="ESCADA Johnny-Esteban - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107812760"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="ESCADA"></Nom>
+                        <Prenom V="Emiliano"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="68 rue du bief"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070009"></IdPce>
+                        <NumDette V="23070009"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="MARTINET Elise - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="9.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107814637"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="ESCUDERO"></Nom>
+                        <Prenom V="Marion"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="112 rue du verger billon"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070010"></IdPce>
+                        <NumDette V="23070010"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="FINAU Malia - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107790747"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="FINAU"></Nom>
+                        <Prenom V="Alexa"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="574 rue de la suisse"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070011"></IdPce>
+                        <NumDette V="23070011"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="BOULET Louison - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="47.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107806940"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="HOUBART"></Nom>
+                        <Prenom V="Juliette"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="36 rue des Terreaux"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070012"></IdPce>
+                        <NumDette V="23070012"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="CORONA Olaph - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107816100"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="JACONO"></Nom>
+                        <Prenom V="Emily"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="163 rue du 12 juillet 1944"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070013"></IdPce>
+                        <NumDette V="23070013"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="LAUNAY LOGAN - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107816103"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="LAUNAY"></Nom>
+                        <Prenom V="CELINA"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="224 RUE DE LA SUISSE"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070014"></IdPce>
+                        <NumDette V="23070014"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="LECOQ Clement - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="9.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801207"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="LECOQ"></Nom>
+                        <Prenom V="Celine"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="29 rue de la Grand&apos;Cote"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070015"></IdPce>
+                        <NumDette V="23070015"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="MERICI Ella - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801208"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="MERICI-GRANT"></Nom>
+                        <Prenom V="Maurizio-Catherine"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="224 rue de la cuivrerie"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070016"></IdPce>
+                        <NumDette V="23070016"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="MERMET BURNET Tymeo - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107809553"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="MERMETBURNET"></Nom>
+                        <Prenom V="Laetitia"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="19 cour de tache"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070017"></IdPce>
+                        <NumDette V="23070017"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="RAVIER MORGANE - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107814639"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="MERMILLON"></Nom>
+                        <Prenom V="Anne-Cecile"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="35 rue des Terreaux"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070018"></IdPce>
+                        <NumDette V="23070018"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="PANIBAL Antonin - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107791465"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="PANIBAL"></Nom>
+                        <Prenom V="Sebastien"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="266 rue de la gare"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070019"></IdPce>
+                        <NumDette V="23070019"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="PELLIN Liam - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107804132"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="PELLIN"></Nom>
+                        <Prenom V="Audrey"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="162a rue de la gare"></Adr1>
+                        <Adr3 V="Appartement 102"></Adr3>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070020"></IdPce>
+                        <NumDette V="23070020"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="PETIT Morgan - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="9.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801209"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="PETIT"></Nom>
+                        <Prenom V="SEVERINE"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="305 RUE DE LA CARTONNERIE"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070021"></IdPce>
+                        <NumDette V="23070021"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="PETITCOLIN Juline - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107804135"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="PETITCOLIN"></Nom>
+                        <Prenom V="Gabriel"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="87 rue de la californie"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070022"></IdPce>
+                        <NumDette V="23070022"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="LONGO CHARREL Emilie - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="38"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801210"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="PIETTE"></Nom>
+                        <Prenom V="Noemie"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="72 rue du four"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070023"></IdPce>
+                        <NumDette V="23070023"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="POULET Yoann - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107791454"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="POULET"></Nom>
+                        <Prenom V="Christian"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="325 rue de la suisse"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070024"></IdPce>
+                        <NumDette V="23070024"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="RAULT Leonce - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="14.25"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107802117"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="M"></Civilite>
+                        <Nom V="RAULT"></Nom>
+                        <Prenom V="Anthony"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="20 place des terreaux"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070025"></IdPce>
+                        <NumDette V="23070025"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="RAVETTO Leelou - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107814638"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="RAVETTO"></Nom>
+                        <Prenom V="Laetitia"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="54 rue de la gumarde"></Adr1>
+                        <CP V="01460"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070026"></IdPce>
+                        <NumDette V="23070026"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="REVEILLON TIMEO - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="4.75"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107795558"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="REVEILLON"></Nom>
+                        <Prenom V="CEDRIC"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="195 rue du 12 juillet 1944"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070027"></IdPce>
+                        <NumDette V="23070027"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="REVEROND BAILLIEZ Nathan - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="4.75"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107804587"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="REVEROND"></Nom>
+                        <Prenom V="Lydie"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="8a place de la vigneronne"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070028"></IdPce>
+                        <NumDette V="23070028"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="RIVOLLET Loo - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107795751"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="RIVOLLET"></Nom>
+                        <Prenom V="Marine"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="63 Rue de la Californie"></Adr1>
+                        <Adr3 V="Appartement 1031"></Adr3>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070029"></IdPce>
+                        <NumDette V="23070029"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="SONIVAL Aly - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="14.25"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107791857"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="SONIVAL"></Nom>
+                        <Prenom V="Pierre-Jean"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="54 rue de Marcheroux"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070030"></IdPce>
+                        <NumDette V="23070030"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="BECHET Lise - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="9.5"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310107801212"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MME"></Civilite>
+                        <Nom V="TINGO"></Nom>
+                        <Prenom V="Bernadette"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="170, rue du verger billon"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+            <Article>
+                <BlocArticle>
+                    <InfoArticle>
+                        <IdPce V="23070031"></IdPce>
+                        <NumDette V="23070031"></NumDette>
+                        <Per V="1"></Per>
+                        <EtatPce V="02"></EtatPce>
+                        <DtePcePec V="2023-07-13"></DtePcePec>
+                        <CodProdLoc V="83"></CodProdLoc>
+                        <ObjPce V="ANNET Khais - Facture Cantine Juillet 2023"></ObjPce>
+                        <MtTTC V="19"></MtTTC>
+                    </InfoArticle>
+                </BlocArticle>
+                <Tiers>
+                    <InfoTiers>
+                        <RefTiers V="310109526482"></RefTiers>
+                        <CatTiers V="01"></CatTiers>
+                        <Civilite V="MOUMME"></Civilite>
+                        <Nom V="VALLE"></Nom>
+                        <Prenom V="CORALIE"></Prenom>
+                    </InfoTiers>
+                    <Adresse>
+                        <Adr1 V="301 RUE DE LA SUISSE"></Adr1>
+                        <CP V="01450"></CP>
+                        <Ville V="CERDON"></Ville>
+                    </Adresse>
+                </Tiers>
+            </Article>
+        </Role>
+    </PES_TIPI_Role>
+</n:PES_Retour>

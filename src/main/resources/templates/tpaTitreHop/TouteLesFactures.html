@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liste des Factures</title>
+  <link rel="stylesheet" th:href="@{/static/bootstrap-5.3.2-dist/css/bootstrap.min.css}">
+  <script th:src="@{/static/bootstrap-5.3.2-dist/js/bootstrap.min.js}"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styleCss.css">
+
+</head>
+<body>
+<header>
+
+  <style>
+      body {
+font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+margin: 0;
+padding: 0;
+}
+
+/* Styles de l'en-tête */
+header {
+background-color: #000;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+
+/* Styles de l'en-tête (Titre) */
+header h1 {
+font-size: 36px;
+margin: 0;
+}
+
+/* Styles de la barre de navigation */
+.navbar {
+background-color: #000;
+margin-bottom: 20px;
+}
+
+/* Styles de la liste de navigation */
+.navbar-menu {
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+
+/* Styles des éléments de la liste de navigation */
+.navbar-menu li {
+display: inline-block;
+margin-right: 20px;
+}
+
+/* Styles des liens de la liste de navigation */
+.navbar-menu a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+}
+
+/* Styles de tableau */
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: #fff;
+}
+
+/* Styles des cellules d'en-tête et de données */
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+/* Styles des cellules d'en-tête */
+th {
+background-color: #000;
+color: #fff;
+}
+
+/* Styles au survol des lignes du tableau */
+tr:hover {
+background-color: #f5f5f5;
+}
+
+/* Styles des liens/styled-buttons */
+.styled-link {
+background-color: #000; /* Fond noir */
+color: #fff; /* Texte blanc */
+padding: 8px 16px;
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s;
+}
+
+/* Styles au survol des liens/styled-buttons */
+.styled-link:hover {
+background-color: #0077A8; /* Changement de couleur au survol */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Ombre encore plus prononcée au survol */
+color: #fff; /* Texte blanc au survol */
+}
+
+/* Styles des petits boutons */
+.small-button {
+font-size: 13px;
+background-color: #000; /* Fond noir */
+color: #fff; /* Texte blanc */
+text-decoration: none;
+border-radius: 4px;
+transition: background-color 0.3s;
+}
+
+/* Styles au survol des petits boutons */
+.small-button:hover {
+background-color: #0077A8; /* Couleur bleue pour la surbrillance */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Ombre au survol */
+color: #fff; /* Texte blanc au survol */
+}
+
+/* Styles de la barre de navigation fixe */
+#fixed-navbar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #000;
+z-index: 1000;
+padding: 10px 0;
+}
+
+/* Styles des groupes de boutons */
+.button-group {
+margin-bottom: 6px;
+}
+
+/* Styles du conteneur des champs de saisie et des boutons */
+.input-button-container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+/* Styles des éléments du conteneur des champs de saisie et des boutons */
+.input-button-container div {
+margin-bottom: 10px;
+}
+
+/* Styles de l'espacement */
+.spacer {
+height: 50px;
+background-color: #fff;
+}
+
+/* Styles des éléments d'articles de facture */
+.invoice-item {
+border-bottom: 1px solid #000;
+}
+/* Styles au survol des éléments d'articles de facture */
+.invoice-item-container:hover {
+background-color: #000;
+transition: background-color 0.3s;
+}
+
+/* Styles du conteneur de tableau */
+.table-container {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+/* Styles de la bordure des lignes du tableau */
+table tr {
+border: 1px solid #000;
+}
+    </style>
+
+    <div class="container">
+      <div class="navbar" id="fixed-navbar">
+        <ul class="navbar-menu" >
+          <div class="navbar-links">
+          <li>
+            <div class="navbar-links">
+              <a href="/tpaTitreRec/TouteLesFactures" class="styled-link">| Tpa_Rec |</a>
+            </div>
+          </li>
+          <li>
+            <div class="navbar-links">
+              <a href="/tpaTitreRol/TouteLesFactures" class="styled-link">| Tpa_Role |</a>
+            </div>
+          </li>
+          <li>
+            <div class="navbar-links">
+              <a href="/tpaTitreRnf/TouteLesFactures" class="styled-link">| Tpa_Rnf |</a>
+            </div>
+          </li>
+            <li>
+              <div class="navbar-links">
+                <a href="/tpaTitreHop/TouteLesFactures" class="styled-link" style="color: purple;">| Tpa_Hop |</a>
+              </div>
+            </li>
+          <li>
+            <div class="navbar-links">
+              <form th:action="@{/downloadAllFacture}" method="get" id="downloadForm">
+                <input type="submit" value="Télécharger toutes les factures Hop" class="styled-link">
+              </form>
+            </div>
+          </li>
+          <li>
+            <div class="navbar-links" style="text-align: center;">
+              <form th:action="@{/saveNew}" method="get">
+                <input type="submit" value="Créer facture Tpa Titre Hop" class="styled-link">
+              </form>
+            </div>
+          </li>
+          <li>
+            <div class="navbar-links" style="text-align: right;">
+              <form th:action="@{/deleteAll}" method="post">
+                <input type="submit" value="Supprimer toutes les factures Hop" class="styled-link">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="spacer"></div> <!-- Balise pour créer un espace blanc -->
+
+  <div>
+    <table class="table">
+      <thead>
+      <tr>
+        <th style="background-color: #f5f5f5; color: #000;"> </th>
+        <th style="background-color: #f5f5f5; color: #000;">|Tpa_Hop|</th>
+        <th style="background-color: #f5f5f5; color: #000;">TitreReference</th>
+        <th style="background-color: #f5f5f5; color: #000;">Numéro client</th>
+        <th style="background-color: #f5f5f5; color: #000;">Montant à payer</th>
+        <th style="background-color: #f5f5f5; color: #000;">Ref tier malade</th>
+        <th style="background-color: #f5f5f5; color: #000;">Date limite paiement</th>
+        <th style="background-color: #f5f5f5; color: #000;">IdPce</th>
+        <th style="background-color: #f5f5f5; color: #000;">Code protocole</th>
+      </tr>
+      </thead>
+      <tbody>
+      <div th:each="invoice : ${invoices}">
+        <tr>
+        <td>
+          <form th:action="@{/updateNombreFacture/{id}(id=${invoice.id})}" method="post">
+            <div class="input-button-container">
+              <div  th:text="${invoice.nomFacture}"></div>
+              <label for="nombreFacture"></label>
+                <br>
+                <input type="number" id="nombreFacture" name="nombreFacture" inputmode="numeric" th:value="${invoice.nombreFacture}">
+              <div>
+                <button type="submit" class="small-button ">Valider nombre piece</button>
+                <span class="invoice-count" th:text="${invoice.nombreFacture}"></span>
+              </div>
+            </div>
+          </form>
+        </td>
+        <td>
+          <div class="btn-group button-group " role="group">
+            <form th:action="@{/downloadFacture/{id}(id=${invoice.id})}" method="post">
+              <button type="submit" class="small-button">Télécharger</button>
+            </form>
+          </div>
+          <div class="btn-group button-group " role="group">
+            <form th:action="@{/tpaTitreHop/updateFacture/{id}(id=${invoice.id})}" method="get">
+              <button type="submit" class="small-button">Modifier</button>
+            </form>
+            <br>
+          </div>
+          <div class="btn-group button-group " role="group">
+            <form th:action="@{/deleteInvoice}" method="post">
+              <input type="hidden" th:name="id" th:value="${invoice.id}" />
+              <button type="submit" class="small-button">Supprimer</button>
+            </form>
+          </div>
+        </td>
+        <td class="invoice-item" th:text="${invoice.referenceTitre}"></td>
+        <td class="invoice-item" th:text="${invoice.IdPost}"></td>
+          <td class="invoice-item" th:text="${invoice.MtTTC}"></td>
+          <td class="invoice-item" th:text="${invoice.refTiers}"></td>
+          <td class="invoice-item" th:text="${invoice.DtePcePec}"></td>
+          <td class="invoice-item" th:text="${invoice.IdPce}"></td>
+        <td>3</td>
+        </tr>
+      </div>
+  </tbody>
+  </table>
+  </div>
+  </div>
+
+  </body>
+  </html>
