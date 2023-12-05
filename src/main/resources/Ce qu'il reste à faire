@@ -19,4 +19,6 @@ Rec :
     - (EXER) et de l’identifiant de titre (lui-même agrégation de IDPIECE et IDLIGNE )
     -
 
+
+    - Pour l'executable il y a sans doute un problème avec les liens et les routages de chemin
 Launch4j pour créer une exécutable cliquable

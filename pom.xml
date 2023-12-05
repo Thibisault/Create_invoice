@@ -102,39 +102,10 @@
 			<version>2.2.224</version>
 			<scope>runtime</scope>
 		</dependency>
-
 	</dependencies>
-
 
 	<build>
 		<plugins>
-			<!-- Plugin Maven Resources pour copier le script dans le répertoire de ressources -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.2.0</version>
-				<executions>
-					<execution>
-						<id>copy-resources</id>
-						<phase>package</phase>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${project.build.outputDirectory}</outputDirectory>
-							<resources>
-								<resource>
-									<directory>${project.basedir}/src/main/resources</directory>
-									<includes>
-										<include>launch.sh</include>
-									</includes>
-								</resource>
-							</resources>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-
 			<!-- Plugin Spring Boot Maven -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -152,27 +123,7 @@
 				</executions>
 			</plugin>
 
-			<!-- Plugin Maven Exec pour exécuter le script avant le démarrage de l'application -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.0.0</version>
-				<executions>
-					<execution>
-						<id>exec-launch-script</id>
-						<phase>pre-integration-test</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>${project.build.outputDirectory}/launch.sh</executable>
-							<workingDirectory>${project.build.outputDirectory}</workingDirectory>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
