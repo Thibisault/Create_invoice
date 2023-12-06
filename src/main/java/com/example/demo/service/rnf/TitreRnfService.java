@@ -33,6 +33,7 @@ public class TitreRnfService {
 
         titreRnfEntity.setNomFacture("Nom facture");
         titreRnfEntity.setNombreFacture(1);
+        titreRnfEntity.setRandomizeNomFic(randomizer.generateRandomStringAndChooseHowMuch(9) +"0");
 
         // EnTête
         titreRnfEntity.setDateEnTete(dateMoinsUnJour);
@@ -41,13 +42,13 @@ public class TitreRnfService {
 
         // Détails article
         titreRnfEntity.setNumeroClient("014556");
-        titreRnfEntity.setReferenceTitre("ABBB208407");
         titreRnfEntity.setNumeroPriseEnCharge(000070);
         titreRnfEntity.setDatePriseEnCharge(dateMoinsDeuxJours);
         titreRnfEntity.setMontant(randomizer.generateRandomNumberAndChooseHowMuch(4));
         titreRnfEntity.setObjetDette("test facture infraction voirie forestier1");
 
-        titreRnfEntity.setNomFic("nomFichierADownload");
+        titreRnfEntity.setReferenceTitre(this.generateReferenceTitreRnf(titreRnfEntity));
+        titreRnfEntity.setNomFic(this.generateNomFicRnf(titreRnfEntity));
 
         return titreRnfRepository.save(titreRnfEntity);
     }
@@ -69,17 +70,17 @@ public class TitreRnfService {
     }
 
     public void updateInvoice(TitreRnfEntity updatedInvoice) {
+        updatedInvoice.setReferenceTitre(this.generateReferenceTitreRnf(updatedInvoice));
+        updatedInvoice.setNomFic(this.generateNomFicRnf(updatedInvoice));
         titreRnfRepository.save(updatedInvoice);
     }
 
-    /*
     public String generateNomFicRnf(TitreRnfEntity titreRnfEntity){
-        return titreRnfEntity.getTypFic()+"_"+titreRnfEntity.getIdPost()+"_"+titreRnfEntity.getCodCol()+"_"+titreRnfEntity.getCodBud()+"_"+titreRnfEntity.getExer()+"_";
+        return "RNF_"+titreRnfEntity.getDateEnTete()+"_"+titreRnfEntity.getRandomizeNomFic();
     }
 
     public String generateReferenceTitreRnf(TitreRnfEntity titreRnfEntity){
-        return titreRnfEntity.getExer()+"_"+titreRnfEntity.getIdPce()+"_"+titreRnfEntity.getIdLigne();
+        return titreRnfEntity.getRandomizeNomFic();
     }
-     */
 
 }

@@ -153,7 +153,7 @@ public class RecService {
      * Rècupère le fichier XML modèle dans resources puis
      */
     public RecEntity remplirXmlAvecBDD(TitreRecEntity titreRecEntity) throws IOException {
-        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("TIPIREC_076029_638_00_2023_167.xml");
+        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("static/TIPIREC_076029_638_00_2023_167.xml");
         XmlMapper xmlMapper = new XmlMapper();
         RecEntity recEntity = xmlMapper.readValue(xmlInputStream, RecEntity.class);
 

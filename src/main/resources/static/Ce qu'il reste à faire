@@ -22,3 +22,6 @@ Rec :
 
     - Pour l'executable il y a sans doute un problème avec les liens et les routages de chemin
 Launch4j pour créer une exécutable cliquable
+
+    - Dans chaque page update rajouter le script pour les ouvertures et fermeture de page
+    - Enlever le lien du script qui est sur les première ligne dans chaque upddateInvoice/

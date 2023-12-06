@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des Factures</title>
     <link rel="stylesheet" th:href="@{/static/bootstrap-5.3.2-dist/css/bootstrap.min.css}">
-    <script th:src="@{/static/bootstrap-5.3.2-dist/js/bootstrap.min.js}"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styleCss.css">
+
+    <script>
+    // Établir une connexion WebSocket lorsque la page est chargée
+    const socket = new WebSocket('ws://localhost:8080/ws'); // Remplacez l'URL par celle de votre serveur WebSocket
+
+    // Gérer les événements de la connexion WebSocket
+    socket.onopen = function(event) {
+        // Envoyer un message au serveur WebSocket pour indiquer qu'une page est ouverte
+        socket.send('Page ouverte');
+    };
+
+    socket.onclose = function(event) {
+        // Gérer la fermeture de la connexion WebSocket, si nécessaire
+    };
+    </script>
+
 
 </head>
 <body>

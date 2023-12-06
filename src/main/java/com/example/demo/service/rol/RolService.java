@@ -148,7 +148,7 @@ public class RolService {
      * Rècupère le fichier XML modèle dans resources puis
      */
     public RolEntity remplirXmlAvecBDD(TitreRolEntity titreRolEntity) throws IOException {
-        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("TIPIROL_001021_133_00_2023_194.xml");
+        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("static/TIPIROL_001021_133_00_2023_194.xml");
         XmlMapper xmlMapper = new XmlMapper();
         RolEntity rolEntity = xmlMapper.readValue(xmlInputStream, RolEntity.class);
 

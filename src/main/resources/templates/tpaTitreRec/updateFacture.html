@@ -119,9 +119,12 @@
         <input type="number" id="MtTTC" name="MtTTC" th:field="*{MtTTC}" step="0.01" required>
 
         <!-- DtePcePec -->
-        <label for="DtePcePec">Date limite de paiement:</label>
-        <input type="text" id="DtePcePec" name="DtePcePec" th:field="*{DtePcePec}" required>
-
+        <label for="DtePcePec">Date limite de paiement (format : yyyy-MM(max-12)-dd(max-31)):</label>
+        <input type="text" id="DtePcePec" name="DtePcePec" th:field="*{DtePcePec}"
+               pattern="\d{4}-\d{2}-\d{2}" maxlength="10" required>
+        <div class="error-text" th:if="${#fields.hasErrors('DtePcePec')}">
+            Veuillez entrer une date au format yyyy-MM-dd.
+        </div>
 
         <!-- IdPce -->
         <label for="IdPce">IdPce:</label>

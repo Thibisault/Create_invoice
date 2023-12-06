@@ -64,7 +64,7 @@ public class RecController {
         return "redirect:/tpaTitreRec/TouteLesFactures";
     }
 
-    @GetMapping("/tpaTitreRec/TouteLesFactures")
+    @GetMapping("tpaTitreRec/TouteLesFactures")
     public String showAllFacture(Model model) {
         List<TitreRecEntity> invoices = titreRecService.getAllTpaTitreRec();
         Collections.reverse(invoices);

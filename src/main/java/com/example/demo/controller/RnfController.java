@@ -11,6 +11,7 @@ import org.apache.tomcat.util.http.fileupload.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.*;
@@ -49,7 +50,10 @@ public class RnfController {
     }
 
     @PostMapping("/updateInvoiceRnf")
-    public String updateInvoice(@ModelAttribute TitreRnfEntity updateEntity, @RequestParam("idRnf") Long idRnf) {
+    public String updateInvoice(@ModelAttribute TitreRnfEntity updateEntity, @RequestParam("idRnf") Long idRnf, BindingResult result) {
+        if (result.hasErrors()) {
+            return "tpaTitreRnf/TouteLesFactures";
+        }
         TitreRnfEntity titreRnfEntity = titreRnfService.getTpaTitreRnfById(idRnf);
         TitreRnfEntity tempEntity = new TitreRnfEntity();
         int nombreFacture = titreRnfEntity.getNombreFacture();

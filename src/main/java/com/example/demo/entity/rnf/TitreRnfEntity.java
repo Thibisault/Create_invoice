@@ -3,7 +3,7 @@ package com.example.demo.entity.rnf;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.math.BigDecimal;
+import javax.validation.constraints.Size;
 import java.sql.Date;
 
 @Data
@@ -23,6 +23,10 @@ public class TitreRnfEntity {
 
     @Column(name = "nomFic")
     private String nomFic;
+
+    @Column(name = "randomizeNomFic", length = 10)
+    @Size(max = 10)
+    private String randomizeNomFic;
 
     // EnTête
     @Column(name = "dateEnTete")
@@ -47,7 +51,8 @@ public class TitreRnfEntity {
     @Column(name = "datePriseEnCharge")
     private Date datePriseEnCharge;
 
-    @Column(name = "montant")
+    @Size(max = 11)
+    @Column(name = "montant", length = 11)
     private long montant;
 
     @Column(name = "objetDette")

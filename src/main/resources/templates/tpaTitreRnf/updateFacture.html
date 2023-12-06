@@ -111,19 +111,34 @@
     <input type="text" id="nomFacture" name="nomFacture" th:field="*{nomFacture}" required>
 
     <!-- numeroClient -->
-    <label for="numeroClient">numeroClient:</label>
-    <input type="text" id="numeroClient" name="numeroClient" th:field="*{numeroClient}" required>
+    <label for="numeroClient">numeroClient (maximum 6 caractères):</label>
+    <input type="text" id="numeroClient" name="numeroClient" th:field="*{numeroClient}" maxlength="6" required>
+    <div class="error-text" th:if="${#fields.hasErrors('numeroClient')}">
+      La longueur maximale autorisée est de 6 caractères.
+    </div>
+
 
     <!-- montant -->
-    <label for="montant">montant:</label>
-    <input type="number" id="montant" name="montant" th:field="*{montant}">
+    <label for="montant">montant (maximum 11 caractères):</label>
+    <input type="text" id="montant" name="montant" th:field="*{montant}" maxlength="11" required>
+    <div class="error-text" th:if="${#fields.hasErrors('montant')}">
+      La longueur maximale autorisée est de 11 caractères.
+    </div>
 
-    <!-- numeroPriseEnCharge -->
-    <label for="numeroPriseEnCharge">numeroPriseEnCharge:</label>
-    <input type="number" id="numeroPriseEnCharge" name="numeroPriseEnCharge" th:field="*{numeroPriseEnCharge}">
+    <!-- datePriseEnCharge -->
+    <label for="datePriseEnCharge">Date limite de paiement (format : yyyy-MM(max-12)-dd(max-31)):</label>
+    <input type="text" id="datePriseEnCharge" name="datePriseEnCharge" th:field="*{datePriseEnCharge}"
+           pattern="\d{4}-\d{2}-\d{2}" maxlength="10" required>
+    <div class="error-text" th:if="${#fields.hasErrors('datePriseEnCharge')}">
+      Veuillez entrer une date au format yyyy-MM-dd.
+    </div>
 
-
-
+    <!-- randomizeNomFic -->
+    <label for="randomizeNomFic">idPce (maximum 10 caractères):</label>
+    <input type="text" id="randomizeNomFic" name="randomizeNomFic" th:field="*{randomizeNomFic}" maxlength="10" required>
+    <div class="error-text" th:if="${#fields.hasErrors('randomizeNomFic')}">
+      La longueur maximale autorisée est de 10 caractères.
+    </div>
 
 </div>
 

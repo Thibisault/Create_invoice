@@ -172,7 +172,7 @@ public class HopService {
      * Rècupère le fichier XML modèle dans resources puis
      */
     public HopEntity remplirXmlAvecBDD(TitreHopEntity titreHopEntity) throws IOException {
-        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("TIPIHOP_073037_816_00_2023_164.xml");
+        InputStream xmlInputStream = getClass().getClassLoader().getResourceAsStream("static/TIPIHOP_073037_816_00_2023_164.xml");
         XmlMapper xmlMapper = new XmlMapper();
         HopEntity hopEntity = xmlMapper.readValue(xmlInputStream, HopEntity.class);
 
