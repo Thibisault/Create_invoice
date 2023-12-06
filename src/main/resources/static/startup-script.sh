@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="http://localhost:8080/tpaTitreRec/TouteLesFactures"
+URL="http://localhost:51234/tpaTitreRec/TouteLesFactures"
 
 if command -v xdg-open > /dev/null; then
   xdg-open "$URL" &

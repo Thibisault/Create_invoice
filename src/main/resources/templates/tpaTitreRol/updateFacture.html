@@ -4,100 +4,10 @@
     <meta charset="UTF-8">
     <title>Modifier facture tpa_titre_rol</title>
     <link rel="stylesheet" th:href="@{/static/bootstrap-5.3.2-dist/css/bootstrap.min.css}">
-    <script th:src="@{/static/bootstrap-5.3.2-dist/js/bootstrap.min.js}"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
+    <script th:src="@{/commun.js}" type="text/javascript"></script>
+    <link th:href="@{/commun.css}" rel="stylesheet" type="text/css" />
 
-        h1 {
-            color: #000;
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .form-container {
-            width: 80%;
-            max-width: 600px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            overflow: auto;
-            max-height: 70vh;
-        }
-
-        label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"],
-        input[type="date"],
-        input[type="number"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            transition: border-color 0.3s;
-        }
-
-        input[type="text"]:focus,
-        input[type="date"]:focus,
-        input[type="number"]:focus {
-            border-color: #0077A8;
-            outline: none;
-        }
-
-        input[type="submit"] {
-            background-color: #000;
-            color: #fff;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s, box-shadow 0.3s;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #0077A8;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-        }
-
-        .cancel-button {
-            background-color: #000;
-            color: #fff;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-left: 10px;
-            transition: background-color 0.3s, box-shadow 0.3s;
-        }
-
-        .cancel-button:hover {
-            background-color: #0077A8;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-        }
-
-        .error-text {
-        color: red;
-        font-size: 12px;
-        margin-top: 5px;
-        }
-    </style>
 </head>
 <body>
 

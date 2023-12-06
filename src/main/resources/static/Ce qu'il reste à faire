@@ -1,9 +1,9 @@
 Rnf :
     -
-    - Changer le nom de la facture Rnf au téléchargement,
-    - Comprendre la logique de concatenation du titre référence,
     -
-    - Rajouter l'équivalent du idPce dans updateFacture et showAllFacture, (Le rendre aléatoire pour le titreRéférence)
+    -
+    -
+    -
     -
 
 Hop :
@@ -20,8 +20,6 @@ Rec :
     -
 
 
-    - Pour l'executable il y a sans doute un problème avec les liens et les routages de chemin
-Launch4j pour créer une exécutable cliquable
+    - Résoudre le problème du routage des pages qui ne sont plus valide après avoir packager l'application en .jar
+    - Faire un cliquable qui lance l'application
 
-    - Dans chaque page update rajouter le script pour les ouvertures et fermeture de page
-    - Enlever le lien du script qui est sur les première ligne dans chaque upddateInvoice/
