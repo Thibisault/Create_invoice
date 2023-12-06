@@ -277,6 +277,8 @@ public class RecEntity {
     public static class InfoLignePiece {
         @JacksonXmlProperty(localName = "IdLigne")
         public RecEntity.IdLigne idLigne;
+        @JacksonXmlProperty(localName = "ObjLignePce")
+        public RecEntity.ObjLignePce objLignePce;
         @JacksonXmlProperty(localName = "Nature")
         public RecEntity.Nature nature;
         @JacksonXmlProperty(localName = "MtTTC")
@@ -286,6 +288,12 @@ public class RecEntity {
 
     @Data
     public static class IdLigne {
+        @JacksonXmlProperty(localName = "V", isAttribute = true)
+        public String v;
+    }
+
+    @Data
+    public static class ObjLignePce {
         @JacksonXmlProperty(localName = "V", isAttribute = true)
         public String v;
     }

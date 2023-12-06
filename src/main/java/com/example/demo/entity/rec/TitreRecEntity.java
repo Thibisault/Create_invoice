@@ -3,6 +3,7 @@ package com.example.demo.entity.rec;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.sql.Date;
 
@@ -93,7 +94,8 @@ public class TitreRecEntity {
     @Column(name = "NbrePce")
     private String NbrePce;
 
-    @Column(name = "IdPce")
+    @Size(max = 8)
+    @Column(name = "IdPce", length = 8)
     private long IdPce;
 
     @Column(name = "TypPce")
@@ -114,6 +116,9 @@ public class TitreRecEntity {
 
     @Column(name = "IdLigne")
     private String IdLigne;
+
+    @Column(name ="ObjLignePce")
+    private String ObjLignePce;
 
     @Column(name = "Nature")
     private String Nature;

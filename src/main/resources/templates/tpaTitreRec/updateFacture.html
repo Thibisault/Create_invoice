@@ -16,13 +16,21 @@
     <form th:object="${updateNew}" th:action="@{/updateInvoiceRec}" method="post">
         <input type="hidden" id="idRec" name="idRec" th:value="${idRec}"/>
 
-        <!-- nomFacture -->
-        <label for="nomFacture">nomFacture:</label>
-        <input type="text" id="nomFacture" name="nomFacture" th:field="*{nomFacture}" required>
+        <!-- ObjLignePce -->
+        <label for="ObjLignePce">Objet:</label>
+        <input type="text" id="ObjLignePce" name="ObjLignePce" th:field="*{ObjLignePce}" required>
 
         <!-- IdPost -->
-        <label for="IdPost">Numéro client:</label>
+        <label for="IdPost">numero codique:</label>
         <input type="text" id="IdPost" name="IdPost" th:field="*{IdPost}" required>
+
+        <!-- CodCol -->
+        <label for="CodCol">CodCol:</label>
+        <input type="text" id="CodCol" name="CodCol" th:field="*{CodCol}" required>
+
+        <!-- CodBud -->
+        <label for="CodBud">CodBud:</label>
+        <input type="text" id="CodBud" name="CodBud" th:field="*{CodBud}" required>
 
         <!-- Montant à payer -->
         <label for="MtTTC">Montant à payer:</label>
@@ -38,7 +46,9 @@
 
         <!-- IdPce -->
         <label for="IdPce">IdPce:</label>
-        <input type="text" id="IdPce" name="IdPce" th:field="*{IdPce}" required>
+        <input type="text" id="IdPce" name="IdPce" th:field="*{IdPce}" maxlength="8" required>
+        <div class="error-text" th:if="${#fields.hasErrors('IdPce')}">
+            La longueur maximale autorisée est de 8 caractères.
 
 </div>
 

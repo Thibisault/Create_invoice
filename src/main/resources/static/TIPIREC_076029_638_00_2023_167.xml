@@ -37,6 +37,7 @@
                     <BlocLignePiece>
                         <InfoLignePiece>
                             <IdLigne V="1"></IdLigne>
+                            <ObjLignePce V="Objet"></ObjLignePce>
                             <Nature V="752"></Nature>
                             <MtTTC V="481.69"></MtTTC>
                         </InfoLignePiece>

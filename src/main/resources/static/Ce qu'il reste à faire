@@ -16,10 +16,15 @@ Rol :
     -
 
 Rec :
-    - (EXER) et de l’identifiant de titre (lui-même agrégation de IDPIECE et IDLIGNE )
+    - Pour le titre reference (IdPce), si il fait moins de 8 caractères remplir sur la gauche avec des zéros juqu'à atteindre 8
+    - Faire en sorte de laisser la possibilité d'écrire seulement 7 caractères et boucher le dernier caractères sur la droite avec un 0
+    - pour eviter le problème de l'incrémentation si la personne nous donne un idPiece qui est de 9999999 (Ce qui causerait une erreur,
+    - car cela dépasserait la limite autorisé de caractère qui est de 8)
+
+    - Pour le titre reference faire de même pour l'id ligne mais jusqu'à 6 caractères
+
+    - Rajouter le champs objetligne qui sera à la place du "nom facture" sur la page html
+
+    - Quand l'application est en icone, j'ai l'impression qu'il m'indique page fermé
+
     -
-
-
-    - Résoudre le problème du routage des pages qui ne sont plus valide après avoir packager l'application en .jar
-    - Faire un cliquable qui lance l'application
-

@@ -92,6 +92,10 @@ public class RecService {
         idLigne.setV(titreRecEntity.getIdLigne());
         piece.ligneDePiece.blocLignePiece.infoLignePiece.setIdLigne(idLigne);
 
+        RecEntity.ObjLignePce objLignePce = new RecEntity.ObjLignePce();
+        objLignePce.setV(titreRecEntity.getObjLignePce());
+        piece.ligneDePiece.blocLignePiece.infoLignePiece.setObjLignePce(objLignePce);
+
         RecEntity.Nature nature = new RecEntity.Nature();
         nature.setV(titreRecEntity.getNature());
         piece.ligneDePiece.blocLignePiece.infoLignePiece.setNature(nature);

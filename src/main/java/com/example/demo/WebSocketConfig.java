@@ -10,7 +10,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(new WebSocketHandler(), "/ws"); // Définissez l'URL de votre endpoint WebSocket
+        registry.addHandler(new WebSocketHandler(), "/ws");
     }
 }
 

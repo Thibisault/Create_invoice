@@ -67,6 +67,7 @@ public class TitreRecService {
         titreRecEntity.setDtePcePec(dateActuellePlus2Jours);
         //InfoLignePiece
         titreRecEntity.setIdLigne("1");
+        titreRecEntity.setObjLignePce("objet");
         titreRecEntity.setNature("752");
         titreRecEntity.setMtTTC(BigDecimal.valueOf(randomizer.generateRandomNumberAndChooseHowMuch(4)));
         //InfoTiers
@@ -117,6 +118,6 @@ public class TitreRecService {
     }
 
     public String generateReferenceTitreRec(TitreRecEntity titreRecEntity){
-        return titreRecEntity.getExer()+"_"+titreRecEntity.getIdPce()+"_"+titreRecEntity.getIdLigne();
+        return titreRecEntity.getExer()+"_"+titreRecEntity.getIdPce()+"00000"+titreRecEntity.getIdLigne();
     }
 }

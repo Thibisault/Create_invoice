@@ -18,12 +18,11 @@ public class WebSocketHandler extends TextWebSocketHandler {
     public void afterConnectionEstablished(WebSocketSession session) {
         openSessions.add(session);
         pageCount++;
-        System.out.println("Une page a été ouverte, nombre de pages ouvertes : " + pageCount);
 
-        // Envoyez un message pour informer le serveur WebSocket du nombre de pages ouvertes
-        sendMessageToServer("Page ouverte : " + pageCount);
+        // Envoyer un message pour informer le serveur WebSocket du nombre de pages ouvertes
+        sendMessageToServer("Une page a été ouverte, nombre de pages ouvertes : " + pageCount);
 
-        // Annulez le timer s'il y a toujours des pages ouvertes
+        // Annuler le timer s'il y a toujours des pages ouvertes
         if (timer != null) {
             timer.cancel();
             timer = null;
@@ -34,10 +33,9 @@ public class WebSocketHandler extends TextWebSocketHandler {
     public void afterConnectionClosed(WebSocketSession session, CloseStatus status) {
         openSessions.remove(session);
         pageCount--;
-        System.out.println("Une page a été fermée, nombre total de pages après suppression : " + pageCount);
 
         // Envoyez un message pour informer le serveur WebSocket du nombre de pages fermées
-        sendMessageToServer("Page fermée : " + pageCount);
+        sendMessageToServer("Une page a été fermée, nombre total de pages après suppression : " + pageCount);
 
         // Si toutes les pages sont fermées et qu'il n'y a pas de timer en cours, démarrez un nouveau timer
         if (pageCount == 0 && timer == null) {
@@ -49,13 +47,14 @@ public class WebSocketHandler extends TextWebSocketHandler {
                 public void run() {
                     // Code pour arrêter l'application après 10 secondes
                     System.out.println("Arrêt de l'application après 10 secondes.");
-                    System.exit(0); // Cela peut être remplacé par un mécanisme d'arrêt plus approprié.
+                    System.exit(0);
                 }
             }, 10000); // Délai de 10 secondes
         }
     }
 
     private void sendMessageToServer(String message) {
+        System.out.println(message);
     }
 }
 
